@@ -1,12 +1,8 @@
 {
     "version": "0.2",
-    "requires" : ["pandas","json"],
-    "__metadata__": {
-        "license_url": "https://github.com/DiseaseOntology/HumanDiseaseOntology/blob/master/DO_LICENSE.txt",
-        "url": "https://disease-ontology.org/"
-    },
+    "requires" : ["pandas"],
     "dumper" : {
-        "data_url" : ["https://github.com/polyg314/COHD_APIs/blob/master/COHD_prework/pc_sorted_test.txt?raw=true","https://github.com/polyg314/COHD_APIs/blob/master/COHD_prework/concept_xref.json?raw=true"],
+        "data_url" : ["https://github.com/polyg314/COHD_APIs/raw/master/COHD_prework/pc_sorted_test.txt", "https://github.com/polyg314/COHD_APIs/raw/master/COHD_prework/concept_xref.json"],
         "uncompress" : false
     },
     "uploader" : {
